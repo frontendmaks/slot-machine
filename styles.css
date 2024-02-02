@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, grey 0%, lightgrey 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slots {
+  width: 276.5px;
+  height: 237px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 23.7px;
+  background: linear-gradient(45deg, grey 0%, lightgray 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+.slots .reel {
+  border: 1px solid #000;
+  height: 237px;
+  width: 79px;
+  background-image: url(https://assets.codepen.io/439000/slotreel.webp);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
